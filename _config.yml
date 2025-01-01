@@ -41,6 +41,13 @@ comments:
     reactions_enabled    : '1'
     theme                : "transparent_dark"
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-VXR198WEYG"
+    anonymize_ip: false # default
+
+
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
