@@ -28,10 +28,21 @@ twitter_username: twitter_username
 github_username: github_username
 minimal_mistakes_skin: dark
 search: true
+enable_copy_code_button: true
+
+comments:
+  provider               : "giscus"
+  giscus:
+    repo_id              : "msl0/demo-page"
+    category_name        : "Announcements"
+    category_id          : "DIC_kwDOLo-Nvc4ClqGq"
+    discussion_term      : "pathname"
+    reactions_enabled    : '1'
+    theme                : "light" #  (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -78,6 +89,8 @@ author:
       icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/m_slowikowski"
 # Add StackOverflow
+
+
 
 footer:
   links:
