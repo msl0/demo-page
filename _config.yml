@@ -39,7 +39,7 @@ comments:
     category_id          : "DIC_kwDOLo-Nvc4ClqGq"
     discussion_term      : "pathname"
     reactions_enabled    : '1'
-    theme                : "light" #  (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+    theme                : "transparent_dark"
 
 # Build settings
 markdown: kramdown
