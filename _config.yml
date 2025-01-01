@@ -19,6 +19,7 @@ masthead_title: " "
 email: admin@local
 #subtitle: Personal blog
 #email:
+repository: "msl0/demo-page"
 
 description: >-
   In this blog, as a DevOps engineer and trainer,
@@ -33,7 +34,7 @@ enable_copy_code_button: true
 comments:
   provider               : "giscus"
   giscus:
-    repo_id              : "msl0/demo-page"
+    repo_id              : "R_kgDOLo-NvQ"
     category_name        : "Announcements"
     category_id          : "DIC_kwDOLo-Nvc4ClqGq"
     discussion_term      : "pathname"
